@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #334d4d;
+  margin: 50px;
+  width: 350px;
+  height: 550px;
+  margin: 0 auto; /* horizontally centreing an element */
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.screen {
+  background-color: #d1e0e0;
+  width: 330px;
+  height: 100px;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-size: xx-large;
+  color: #000000;
+  text-align: center;
+}
+
+.buttons {
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+span {
+  width: 31%;
+  height: 60px;
+  text-align: center;
+  font-size: xx-large;
+  border: 1px solid #333;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s linear;
+}
+
+span:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
+}
